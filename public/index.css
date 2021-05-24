@@ -12,19 +12,19 @@ body{
     height:400px;
     background-color: white;
     margin:18vh auto;
-    padding:20px;
+    padding:40px;
     border-radius: 300px;
     /*  */
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,90px);
     grid-gap: 10px;
-    transform: rotateZ(-349deg) scale(1.0);
+    transform: rotateZ(-360deg) scale(1.0);
     transition: transform 1s 0s ease-out;
 }
 
 .logoContainer:hover{
-    transform:rotateZ(349deg) scale(0.9);
+    transform:rotateZ(360deg) scale(0.9);
     transition: transform 1s 0s ease-in;
 }
 
